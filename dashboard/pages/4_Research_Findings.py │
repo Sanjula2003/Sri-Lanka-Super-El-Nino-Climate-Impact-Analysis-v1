@@ -1,0 +1,7 @@
+extreme_summary = (
+    df.groupby("District")
+    ["Extreme_Event"]
+    .value_counts()
+)
+
+print(extreme_summary)
