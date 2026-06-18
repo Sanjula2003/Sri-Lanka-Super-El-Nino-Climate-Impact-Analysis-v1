@@ -319,7 +319,7 @@ Automatically identifies:
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/super-el-nino-climate-analysis.git
+git clone https://github.com/Sanjula2003/Sri-Lanka-Super-El-Nino-Climate-Impact-Analysis-v1.git
 
 cd super-el-nino-climate-analysis
 
