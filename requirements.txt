@@ -13,4 +13,6 @@ matplotlib
 seaborn
 
 folium
-streamlit-folium
+streamlit-folium    
+
+pathlib
