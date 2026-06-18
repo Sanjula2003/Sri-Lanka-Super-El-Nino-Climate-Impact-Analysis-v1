@@ -31,7 +31,10 @@ df["Date"] = pd.to_datetime(df["Date"])
 # LOAD MODEL
 # -------------------------
 
+from pathlib import Path
+import joblib
 
+BASE_DIR = Path(__file__).resolve().parents[1]
 
 model = joblib.load(
     BASE_DIR / "outputs" / "models" / "rainfall_predictor.pkl"
