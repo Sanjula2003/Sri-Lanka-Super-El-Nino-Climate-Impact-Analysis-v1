@@ -1,5 +1,11 @@
 import streamlit as st
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
+MODEL_DIR = BASE_DIR / "models"
+
 st.set_page_config(
     page_title="Super El Niño Sri Lanka",
     page_icon="🌍",

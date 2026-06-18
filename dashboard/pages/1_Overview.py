@@ -1,8 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+
 df = pd.read_csv(
-    "data/sri_lanka_climate_dataset.csv"
+    BASE_DIR / "data" / "sri_lanka_climate_dataset.csv"
 )
 
 st.title("📊 Project Overview")
