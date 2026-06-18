@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 df = pd.read_csv(
-    "data/sri_lanka_climate_dataset.csv"
+    "../data/sri_lanka_climate_dataset.csv"
 )
 
 st.title("📊 Project Overview")

@@ -17,7 +17,7 @@ st.set_page_config(
 # ----------------------------------
 
 df = pd.read_csv(
-    "data/sri_lanka_climate_dataset.csv"
+    "../data/sri_lanka_climate_dataset.csv"
 )
 
 df["Date"] = pd.to_datetime(df["Date"])
